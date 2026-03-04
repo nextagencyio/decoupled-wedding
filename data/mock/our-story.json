@@ -1,0 +1,126 @@
+{
+  "data": {
+    "nodeStoryChapters": {
+      "__typename": "NodeStoryChapterConnection",
+      "nodes": [
+        {
+          "__typename": "NodeStoryChapter",
+          "id": "story-1",
+          "title": "How We Met",
+          "path": "/our-story/how-we-met",
+          "body": {
+            "processed": "<p>It was a rainy Tuesday in October 2019 when Emma ducked into a small coffee shop in San Francisco's Mission District to escape the downpour. The only open seat was across from a guy who was deeply absorbed in a crossword puzzle -- James.</p><p>\"Is this seat taken?\" Emma asked. James looked up, and as he tells it, completely forgot the seven-letter word for 'serendipity.' They spent the next three hours talking about everything from their shared love of terrible puns to their childhood dreams of becoming marine biologists.</p><p>They exchanged numbers, and what started as a coffee date became dinner, which became a weekend hike, which became the rest of their lives.</p>",
+            "summary": "It was a rainy Tuesday in October 2019 when Emma ducked into a small coffee shop in San Francisco's Mission District to escape the downpour. The only open seat was across from a guy who was deeply abs"
+          },
+          "chapterImage": {
+            "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80",
+            "alt": "Cozy coffee shop interior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "chapterDate": "October 2019",
+          "chapterLocation": "San Francisco, CA",
+          "chapterOrder": 1
+        },
+        {
+          "__typename": "NodeStoryChapter",
+          "id": "story-2",
+          "title": "Our First Big Adventure",
+          "path": "/our-story/first-adventure",
+          "body": {
+            "processed": "<p>Six months into dating, Emma surprised James with tickets to Japan -- a trip he'd dreamed about since reading about samurai as a kid. For two weeks, they explored Tokyo's neon-lit streets, hiked through bamboo forests in Kyoto, and ate their body weight in ramen.</p><p>It was during a quiet moment watching the sunset from a mountain temple that James realized he never wanted to travel the world with anyone else. He almost proposed right then but decided the timing wasn't quite right. (Emma later confessed she had the exact same thought at the exact same moment.)</p>",
+            "summary": "Six months into dating, Emma surprised James with tickets to Japan -- a trip he'd dreamed about since reading about samurai as a kid. For two weeks, they explored Tokyo's neon-lit streets, hiked throu"
+          },
+          "chapterImage": {
+            "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+            "alt": "Traditional Japanese temple at sunset",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "chapterDate": "April 2020",
+          "chapterLocation": "Kyoto, Japan",
+          "chapterOrder": 2
+        },
+        {
+          "__typename": "NodeStoryChapter",
+          "id": "story-3",
+          "title": "The Proposal",
+          "path": "/our-story/the-proposal",
+          "body": {
+            "processed": "<p>On a foggy morning in November 2024, James suggested they take a sunrise hike to their favorite overlook at Mount Tamalpais -- the same spot where they'd had their third date. As they reached the summit and the fog began to part, revealing the Golden Gate Bridge below, James dropped to one knee.</p><p>\"From that rainy day in the coffee shop to this mountaintop,\" he said, his voice cracking, \"every moment with you has been my favorite. Will you marry me?\"</p><p>Emma said yes before he finished the sentence. (And then she said, \"I knew you were going to do this because you voluntarily woke up at 5 AM on a Saturday, which has literally never happened before.\")</p><p>They celebrated with champagne and pancakes at their favorite brunch spot in Mill Valley.</p>",
+            "summary": "On a foggy morning in November 2024, James suggested they take a sunrise hike to their favorite overlook at Mount Tamalpais -- the same spot where they'd had their third date. As they reached the summ"
+          },
+          "chapterImage": {
+            "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&q=80",
+            "alt": "Golden Gate Bridge seen through morning fog from hilltop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "chapterDate": "November 2024",
+          "chapterLocation": "Mount Tamalpais, CA",
+          "chapterOrder": 3
+        }
+      ]
+    }
+  }
+}

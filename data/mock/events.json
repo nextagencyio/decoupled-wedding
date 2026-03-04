@@ -1,0 +1,141 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-1",
+          "title": "Welcome Dinner",
+          "path": "/events/welcome-dinner",
+          "body": {
+            "processed": "<p>Kick off the wedding weekend with a relaxed welcome dinner under the stars. We'll gather for wood-fired pizza, local wines, and lawn games as out-of-town guests arrive and everyone gets acquainted.</p><p>This is a casual affair -- think sundresses and linen shirts. No gifts necessary, just bring your appetite and your best stories about the bride and groom!</p>",
+            "summary": "Kick off the wedding weekend with a relaxed welcome dinner under the stars. We'll gather for wood-fired pizza, local wines, and lawn games as out-of-town guests arrive and everyone gets acquainted.Thi"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Elegant outdoor dinner table with string lights",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1789167600
+          },
+          "eventTime": "6:00 PM - 10:00 PM",
+          "venueName": "The Barn at Rosewood Estate",
+          "venueAddress": "1200 Rosewood Lane, St. Helena, CA 94574",
+          "dressCode": "Casual / Smart Casual",
+          "eventOrder": 1
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-2",
+          "title": "Wedding Ceremony",
+          "path": "/events/ceremony",
+          "body": {
+            "processed": "<p>Join us as we exchange vows in a heartfelt ceremony in the Rosewood Estate rose garden. The ceremony will be officiated by our dear friend, Father Michael Torres, and will feature readings by members of the wedding party.</p><h2>What to Expect</h2><ul><li>Guests will be seated by 3:45 PM</li><li>The ceremony begins promptly at 4:00 PM</li><li>The ceremony will last approximately 30 minutes</li><li>Cocktail hour follows immediately on the terrace</li></ul><p>Please note that the ceremony will take place outdoors on grass. We recommend flat shoes or wedges.</p>",
+            "summary": "Join us as we exchange vows in a heartfelt ceremony in the Rosewood Estate rose garden. The ceremony will be officiated by our dear friend, Father Michael Torres, and will feature readings by members "
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80",
+            "alt": "Beautiful outdoor ceremony setup with floral arch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1789246800
+          },
+          "eventTime": "4:00 PM - 4:30 PM",
+          "venueName": "Rosewood Estate Rose Garden",
+          "venueAddress": "1200 Rosewood Lane, St. Helena, CA 94574",
+          "dressCode": "Black Tie Optional",
+          "eventOrder": 2
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-3",
+          "title": "Reception & Celebration",
+          "path": "/events/reception",
+          "body": {
+            "processed": "<p>After the ceremony, join us in the Grand Ballroom for an evening of dining, dancing, and celebration! Our reception will feature a four-course dinner prepared by Chef Antoine Laurent, an open bar with signature cocktails, and live music from The Silver Notes.</p><h2>Evening Timeline</h2><ul><li>4:30 PM - Cocktail hour on the terrace</li><li>6:00 PM - Doors open to the Grand Ballroom</li><li>6:30 PM - First dance and toasts</li><li>7:00 PM - Dinner service</li><li>8:30 PM - Cake cutting</li><li>9:00 PM - Dancing until midnight</li></ul><p>Late-night snacks will be served at 10:30 PM. A shuttle service will run between the venue and partner hotels from 10:00 PM to 1:00 AM.</p>",
+            "summary": "After the ceremony, join us in the Grand Ballroom for an evening of dining, dancing, and celebration! Our reception will feature a four-course dinner prepared by Chef Antoine Laurent, an open bar with"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80",
+            "alt": "Elegant reception hall with crystal chandeliers and floral centerpieces",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1789248600
+          },
+          "eventTime": "4:30 PM - 12:00 AM",
+          "venueName": "Rosewood Estate Grand Ballroom",
+          "venueAddress": "1200 Rosewood Lane, St. Helena, CA 94574",
+          "dressCode": "Black Tie Optional",
+          "eventOrder": 3
+        }
+      ]
+    }
+  }
+}

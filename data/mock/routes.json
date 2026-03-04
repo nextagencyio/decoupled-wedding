@@ -1,0 +1,551 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Emma & James - September 12, 2026",
+          "path": "/homepage",
+          "heroTitle": "Emma & James",
+          "heroSubtitle": "September 12, 2026 | Rosewood Estate, Napa Valley",
+          "heroDescription": {
+            "processed": "<p>We are so excited to celebrate our love with the people who mean the most to us. Join us for a weekend of joy, laughter, and unforgettable memories in the heart of wine country.</p>",
+            "summary": "We are so excited to celebrate our love with the people who mean the most to us. Join us for a weekend of joy, laughter, and unforgettable memories in the heart of wine country."
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+            "alt": "Couple embracing in a vineyard at sunset",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-date",
+              "title": "",
+              "number": "Sept 12",
+              "label": "Wedding Date"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-venue",
+              "title": "",
+              "number": "Rosewood",
+              "label": "Estate & Gardens"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-guests",
+              "title": "",
+              "number": "150",
+              "label": "Guests Invited"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countdown",
+              "title": "",
+              "number": "193",
+              "label": "Days to Go"
+            }
+          ],
+          "featuredItemsTitle": "Our Story",
+          "ctaTitle": "RSVP by August 1, 2026",
+          "ctaDescription": {
+            "processed": "<p>We can't wait to celebrate with you! Please let us know if you can make it by responding to your invitation. Dinner and accommodation details will be shared upon RSVP.</p>",
+            "summary": "We can't wait to celebrate with you! Please let us know if you can make it by responding to your invitation. Dinner and accommodation details will be shared upon RSVP."
+          },
+          "ctaPrimary": "RSVP Now",
+          "ctaSecondary": "View Registry"
+        }
+      }
+    }
+  },
+  "/events/welcome-dinner": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-1",
+          "title": "Welcome Dinner",
+          "path": "/events/welcome-dinner",
+          "body": {
+            "processed": "<p>Kick off the wedding weekend with a relaxed welcome dinner under the stars. We'll gather for wood-fired pizza, local wines, and lawn games as out-of-town guests arrive and everyone gets acquainted.</p><p>This is a casual affair -- think sundresses and linen shirts. No gifts necessary, just bring your appetite and your best stories about the bride and groom!</p>",
+            "summary": "Kick off the wedding weekend with a relaxed welcome dinner under the stars. We'll gather for wood-fired pizza, local wines, and lawn games as out-of-town guests arrive and everyone gets acquainted.Thi"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+            "alt": "Elegant outdoor dinner table with string lights",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1789167600
+          },
+          "eventTime": "6:00 PM - 10:00 PM",
+          "venueName": "The Barn at Rosewood Estate",
+          "venueAddress": "1200 Rosewood Lane, St. Helena, CA 94574",
+          "dressCode": "Casual / Smart Casual",
+          "eventOrder": 1
+        }
+      }
+    }
+  },
+  "/events/ceremony": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-2",
+          "title": "Wedding Ceremony",
+          "path": "/events/ceremony",
+          "body": {
+            "processed": "<p>Join us as we exchange vows in a heartfelt ceremony in the Rosewood Estate rose garden. The ceremony will be officiated by our dear friend, Father Michael Torres, and will feature readings by members of the wedding party.</p><h2>What to Expect</h2><ul><li>Guests will be seated by 3:45 PM</li><li>The ceremony begins promptly at 4:00 PM</li><li>The ceremony will last approximately 30 minutes</li><li>Cocktail hour follows immediately on the terrace</li></ul><p>Please note that the ceremony will take place outdoors on grass. We recommend flat shoes or wedges.</p>",
+            "summary": "Join us as we exchange vows in a heartfelt ceremony in the Rosewood Estate rose garden. The ceremony will be officiated by our dear friend, Father Michael Torres, and will feature readings by members "
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80",
+            "alt": "Beautiful outdoor ceremony setup with floral arch",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1789246800
+          },
+          "eventTime": "4:00 PM - 4:30 PM",
+          "venueName": "Rosewood Estate Rose Garden",
+          "venueAddress": "1200 Rosewood Lane, St. Helena, CA 94574",
+          "dressCode": "Black Tie Optional",
+          "eventOrder": 2
+        }
+      }
+    }
+  },
+  "/events/reception": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-3",
+          "title": "Reception & Celebration",
+          "path": "/events/reception",
+          "body": {
+            "processed": "<p>After the ceremony, join us in the Grand Ballroom for an evening of dining, dancing, and celebration! Our reception will feature a four-course dinner prepared by Chef Antoine Laurent, an open bar with signature cocktails, and live music from The Silver Notes.</p><h2>Evening Timeline</h2><ul><li>4:30 PM - Cocktail hour on the terrace</li><li>6:00 PM - Doors open to the Grand Ballroom</li><li>6:30 PM - First dance and toasts</li><li>7:00 PM - Dinner service</li><li>8:30 PM - Cake cutting</li><li>9:00 PM - Dancing until midnight</li></ul><p>Late-night snacks will be served at 10:30 PM. A shuttle service will run between the venue and partner hotels from 10:00 PM to 1:00 AM.</p>",
+            "summary": "After the ceremony, join us in the Grand Ballroom for an evening of dining, dancing, and celebration! Our reception will feature a four-course dinner prepared by Chef Antoine Laurent, an open bar with"
+          },
+          "eventImage": {
+            "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80",
+            "alt": "Elegant reception hall with crystal chandeliers and floral centerpieces",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "eventDate": {
+            "timestamp": 1789248600
+          },
+          "eventTime": "4:30 PM - 12:00 AM",
+          "venueName": "Rosewood Estate Grand Ballroom",
+          "venueAddress": "1200 Rosewood Lane, St. Helena, CA 94574",
+          "dressCode": "Black Tie Optional",
+          "eventOrder": 3
+        }
+      }
+    }
+  },
+  "/our-story/how-we-met": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeStoryChapter",
+          "id": "story-1",
+          "title": "How We Met",
+          "path": "/our-story/how-we-met",
+          "body": {
+            "processed": "<p>It was a rainy Tuesday in October 2019 when Emma ducked into a small coffee shop in San Francisco's Mission District to escape the downpour. The only open seat was across from a guy who was deeply absorbed in a crossword puzzle -- James.</p><p>\"Is this seat taken?\" Emma asked. James looked up, and as he tells it, completely forgot the seven-letter word for 'serendipity.' They spent the next three hours talking about everything from their shared love of terrible puns to their childhood dreams of becoming marine biologists.</p><p>They exchanged numbers, and what started as a coffee date became dinner, which became a weekend hike, which became the rest of their lives.</p>",
+            "summary": "It was a rainy Tuesday in October 2019 when Emma ducked into a small coffee shop in San Francisco's Mission District to escape the downpour. The only open seat was across from a guy who was deeply abs"
+          },
+          "chapterImage": {
+            "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80",
+            "alt": "Cozy coffee shop interior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "chapterDate": "October 2019",
+          "chapterLocation": "San Francisco, CA",
+          "chapterOrder": 1
+        }
+      }
+    }
+  },
+  "/our-story/first-adventure": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeStoryChapter",
+          "id": "story-2",
+          "title": "Our First Big Adventure",
+          "path": "/our-story/first-adventure",
+          "body": {
+            "processed": "<p>Six months into dating, Emma surprised James with tickets to Japan -- a trip he'd dreamed about since reading about samurai as a kid. For two weeks, they explored Tokyo's neon-lit streets, hiked through bamboo forests in Kyoto, and ate their body weight in ramen.</p><p>It was during a quiet moment watching the sunset from a mountain temple that James realized he never wanted to travel the world with anyone else. He almost proposed right then but decided the timing wasn't quite right. (Emma later confessed she had the exact same thought at the exact same moment.)</p>",
+            "summary": "Six months into dating, Emma surprised James with tickets to Japan -- a trip he'd dreamed about since reading about samurai as a kid. For two weeks, they explored Tokyo's neon-lit streets, hiked throu"
+          },
+          "chapterImage": {
+            "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+            "alt": "Traditional Japanese temple at sunset",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "chapterDate": "April 2020",
+          "chapterLocation": "Kyoto, Japan",
+          "chapterOrder": 2
+        }
+      }
+    }
+  },
+  "/our-story/the-proposal": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeStoryChapter",
+          "id": "story-3",
+          "title": "The Proposal",
+          "path": "/our-story/the-proposal",
+          "body": {
+            "processed": "<p>On a foggy morning in November 2024, James suggested they take a sunrise hike to their favorite overlook at Mount Tamalpais -- the same spot where they'd had their third date. As they reached the summit and the fog began to part, revealing the Golden Gate Bridge below, James dropped to one knee.</p><p>\"From that rainy day in the coffee shop to this mountaintop,\" he said, his voice cracking, \"every moment with you has been my favorite. Will you marry me?\"</p><p>Emma said yes before he finished the sentence. (And then she said, \"I knew you were going to do this because you voluntarily woke up at 5 AM on a Saturday, which has literally never happened before.\")</p><p>They celebrated with champagne and pancakes at their favorite brunch spot in Mill Valley.</p>",
+            "summary": "On a foggy morning in November 2024, James suggested they take a sunrise hike to their favorite overlook at Mount Tamalpais -- the same spot where they'd had their third date. As they reached the summ"
+          },
+          "chapterImage": {
+            "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&q=80",
+            "alt": "Golden Gate Bridge seen through morning fog from hilltop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "chapterDate": "November 2024",
+          "chapterLocation": "Mount Tamalpais, CA",
+          "chapterOrder": 3
+        }
+      }
+    }
+  },
+  "/info/rsvp-details": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRsvpInfo",
+          "id": "rsvp-1",
+          "title": "RSVP Details",
+          "path": "/info/rsvp-details",
+          "body": {
+            "processed": "<p>Please RSVP by August 1, 2026, so we can finalize arrangements. You can respond using the RSVP card included with your invitation or through our online form.</p><h2>What to Include</h2><ul><li>Names of all guests in your party</li><li>Meal preference (options will be listed on the RSVP card)</li><li>Any dietary restrictions or allergies</li><li>Song requests for the dance floor!</li></ul><h2>Plus Ones</h2><p>If your invitation is addressed to you \"and guest,\" you are welcome to bring a plus one. Please include their name and meal preference in your response.</p><h2>Children</h2><p>While we love your little ones, our celebration will be an adults-only affair (16 and over). We hope this allows you to enjoy the evening worry-free!</p>",
+            "summary": "Please RSVP by August 1, 2026, so we can finalize arrangements. You can respond using the RSVP card included with your invitation or through our online form.What to IncludeNames of all guests in your "
+          },
+          "infoImage": {
+            "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80",
+            "alt": "Elegant wedding invitation suite on marble",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "infoCategory": "RSVP",
+          "contactInfo": "rsvp@emmaandjames2026.com",
+          "deadline": "August 1, 2026",
+          "infoOrder": 1
+        }
+      }
+    }
+  },
+  "/info/accommodations": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRsvpInfo",
+          "id": "rsvp-2",
+          "title": "Accommodations & Travel",
+          "path": "/info/accommodations",
+          "body": {
+            "processed": "<p>We have reserved room blocks at two hotels near the venue with special rates for our wedding guests.</p><h2>Hotel Options</h2><h3>Meadowlark Inn (5 minutes from venue)</h3><p>A charming boutique hotel surrounded by vineyards. Special rate: $245/night. Book by July 15 using code EMMAJAMES26. Phone: (707) 555-0142.</p><h3>Napa Valley Grand Hotel (10 minutes from venue)</h3><p>A full-service hotel with pool and spa. Special rate: $195/night. Book by July 15 using code EJWEDDING. Phone: (707) 555-0198.</p><h2>Getting There</h2><ul><li><strong>By air:</strong> Fly into San Francisco (SFO) or Oakland (OAK), approximately 90 minutes from the venue</li><li><strong>By car:</strong> The venue is located at 1200 Rosewood Lane, St. Helena, CA 94574</li><li><strong>Shuttle:</strong> Complimentary shuttle service between partner hotels and the venue on September 12</li></ul>",
+            "summary": "We have reserved room blocks at two hotels near the venue with special rates for our wedding guests.Hotel OptionsMeadowlark Inn (5 minutes from venue)A charming boutique hotel surrounded by vineyards."
+          },
+          "infoImage": {
+            "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+            "alt": "Charming boutique hotel in wine country",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "infoCategory": "Accommodations",
+          "contactInfo": "travel@emmaandjames2026.com",
+          "deadline": "Book by July 15, 2026",
+          "infoOrder": 2
+        }
+      }
+    }
+  },
+  "/info/things-to-do": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeRsvpInfo",
+          "id": "rsvp-3",
+          "title": "Things to Do in Napa Valley",
+          "path": "/info/things-to-do",
+          "body": {
+            "processed": "<p>If you're making a trip of it (and we hope you are!), here are some of our favorite spots in Napa Valley.</p><h2>Wine Tasting</h2><ul><li><strong>Castello di Amorosa</strong> - A stunning medieval-style castle winery</li><li><strong>Robert Mondavi Winery</strong> - The iconic winery that put Napa on the map</li><li><strong>Schramsberg Vineyards</strong> - Famous for sparkling wines, cave tours available</li></ul><h2>Dining</h2><ul><li><strong>The French Laundry</strong> - Thomas Keller's legendary restaurant (book well in advance!)</li><li><strong>Gott's Roadside</strong> - The best burgers in wine country</li><li><strong>Bouchon Bakery</strong> - Emma's favorite spot for pastries</li></ul><h2>Activities</h2><ul><li>Hot air balloon rides over the valley (sunrise departures)</li><li>Biking the Silverado Trail</li><li>Mud baths and spa treatments in Calistoga</li><li>Hiking at Robert Louis Stevenson State Park</li></ul>",
+            "summary": "If you're making a trip of it (and we hope you are!), here are some of our favorite spots in Napa Valley.Wine TastingCastello di Amorosa - A stunning medieval-style castle wineryRobert Mondavi Winery "
+          },
+          "infoImage": {
+            "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80",
+            "alt": "Napa Valley vineyards stretching into the distance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "infoCategory": "Activities",
+          "contactInfo": "",
+          "deadline": "",
+          "infoOrder": 3
+        }
+      }
+    }
+  },
+  "/registry": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-registry",
+          "title": "Gift Registry",
+          "path": "/registry",
+          "body": {
+            "processed": "<p>Your presence at our wedding is the greatest gift we could ask for. However, if you'd like to honor us with a gift, we have registered at the following stores:</p><h2>Our Registries</h2><ul><li><strong>Crate & Barrel</strong> - For our new home together (search: Emma Chen & James Whitfield)</li><li><strong>REI</strong> - For our love of outdoor adventures</li><li><strong>Zola</strong> - Our online registry with a mix of experiences and housewares</li></ul><h2>Honeymoon Fund</h2><p>We're planning a honeymoon trip to New Zealand! If you'd like to contribute to our adventure fund instead of a physical gift, you can do so through our Zola page. Whether it's a bungee jumping excursion, a wine tour, or just a nice dinner -- we'll toast to you!</p><h2>Charitable Giving</h2><p>In lieu of gifts, we also welcome donations to the Napa Valley Community Foundation or the World Wildlife Fund, two causes close to our hearts.</p>",
+            "summary": "Your presence at our wedding is the greatest gift we could ask for. However, if you'd like to honor us with a gift, we have registered at the following stores:Our RegistriesCrate & Barrel - For our ne"
+          }
+        }
+      }
+    }
+  },
+  "/faq": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-faq",
+          "title": "Frequently Asked Questions",
+          "path": "/faq",
+          "body": {
+            "processed": "<h2>What should I wear?</h2><p>The welcome dinner is casual/smart casual. The wedding ceremony and reception are black tie optional -- think cocktail dresses and suits or tuxedos. September in Napa can be warm during the day and cool in the evening, so bring a light layer.</p><h2>Can I take photos during the ceremony?</h2><p>We kindly request an unplugged ceremony -- please turn off phones and cameras so everyone can be fully present. Our photographer and videographer will capture every moment, and we'll share the photos with all guests after the wedding.</p><h2>Is there parking at the venue?</h2><p>Yes, Rosewood Estate has complimentary valet parking for all guests. We also strongly encourage using the shuttle service if you plan to enjoy the open bar!</p><h2>Will there be vegetarian/vegan options?</h2><p>Absolutely! Please indicate any dietary restrictions on your RSVP card and our chef will accommodate.</p><h2>What if I have more questions?</h2><p>Don't hesitate to reach out to us at hello@emmaandjames2026.com or contact our wedding coordinator, Nicole Park, at (707) 555-0177.</p>",
+            "summary": "What should I wear?The welcome dinner is casual/smart casual. The wedding ceremony and reception are black tie optional -- think cocktail dresses and suits or tuxedos. September in Napa can be warm du"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeRsvpInfos": {
+      "__typename": "NodeRsvpInfoConnection",
+      "nodes": [
+        {
+          "__typename": "NodeRsvpInfo",
+          "id": "rsvp-1",
+          "title": "RSVP Details",
+          "path": "/info/rsvp-details",
+          "body": {
+            "processed": "<p>Please RSVP by August 1, 2026, so we can finalize arrangements. You can respond using the RSVP card included with your invitation or through our online form.</p><h2>What to Include</h2><ul><li>Names of all guests in your party</li><li>Meal preference (options will be listed on the RSVP card)</li><li>Any dietary restrictions or allergies</li><li>Song requests for the dance floor!</li></ul><h2>Plus Ones</h2><p>If your invitation is addressed to you \"and guest,\" you are welcome to bring a plus one. Please include their name and meal preference in your response.</p><h2>Children</h2><p>While we love your little ones, our celebration will be an adults-only affair (16 and over). We hope this allows you to enjoy the evening worry-free!</p>",
+            "summary": "Please RSVP by August 1, 2026, so we can finalize arrangements. You can respond using the RSVP card included with your invitation or through our online form.What to IncludeNames of all guests in your "
+          },
+          "infoImage": {
+            "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80",
+            "alt": "Elegant wedding invitation suite on marble",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "infoCategory": "RSVP",
+          "contactInfo": "rsvp@emmaandjames2026.com",
+          "deadline": "August 1, 2026",
+          "infoOrder": 1
+        },
+        {
+          "__typename": "NodeRsvpInfo",
+          "id": "rsvp-2",
+          "title": "Accommodations & Travel",
+          "path": "/info/accommodations",
+          "body": {
+            "processed": "<p>We have reserved room blocks at two hotels near the venue with special rates for our wedding guests.</p><h2>Hotel Options</h2><h3>Meadowlark Inn (5 minutes from venue)</h3><p>A charming boutique hotel surrounded by vineyards. Special rate: $245/night. Book by July 15 using code EMMAJAMES26. Phone: (707) 555-0142.</p><h3>Napa Valley Grand Hotel (10 minutes from venue)</h3><p>A full-service hotel with pool and spa. Special rate: $195/night. Book by July 15 using code EJWEDDING. Phone: (707) 555-0198.</p><h2>Getting There</h2><ul><li><strong>By air:</strong> Fly into San Francisco (SFO) or Oakland (OAK), approximately 90 minutes from the venue</li><li><strong>By car:</strong> The venue is located at 1200 Rosewood Lane, St. Helena, CA 94574</li><li><strong>Shuttle:</strong> Complimentary shuttle service between partner hotels and the venue on September 12</li></ul>",
+            "summary": "We have reserved room blocks at two hotels near the venue with special rates for our wedding guests.Hotel OptionsMeadowlark Inn (5 minutes from venue)A charming boutique hotel surrounded by vineyards."
+          },
+          "infoImage": {
+            "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+            "alt": "Charming boutique hotel in wine country",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "infoCategory": "Accommodations",
+          "contactInfo": "travel@emmaandjames2026.com",
+          "deadline": "Book by July 15, 2026",
+          "infoOrder": 2
+        },
+        {
+          "__typename": "NodeRsvpInfo",
+          "id": "rsvp-3",
+          "title": "Things to Do in Napa Valley",
+          "path": "/info/things-to-do",
+          "body": {
+            "processed": "<p>If you're making a trip of it (and we hope you are!), here are some of our favorite spots in Napa Valley.</p><h2>Wine Tasting</h2><ul><li><strong>Castello di Amorosa</strong> - A stunning medieval-style castle winery</li><li><strong>Robert Mondavi Winery</strong> - The iconic winery that put Napa on the map</li><li><strong>Schramsberg Vineyards</strong> - Famous for sparkling wines, cave tours available</li></ul><h2>Dining</h2><ul><li><strong>The French Laundry</strong> - Thomas Keller's legendary restaurant (book well in advance!)</li><li><strong>Gott's Roadside</strong> - The best burgers in wine country</li><li><strong>Bouchon Bakery</strong> - Emma's favorite spot for pastries</li></ul><h2>Activities</h2><ul><li>Hot air balloon rides over the valley (sunrise departures)</li><li>Biking the Silverado Trail</li><li>Mud baths and spa treatments in Calistoga</li><li>Hiking at Robert Louis Stevenson State Park</li></ul>",
+            "summary": "If you're making a trip of it (and we hope you are!), here are some of our favorite spots in Napa Valley.Wine TastingCastello di Amorosa - A stunning medieval-style castle wineryRobert Mondavi Winery "
+          },
+          "infoImage": {
+            "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80",
+            "alt": "Napa Valley vineyards stretching into the distance",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "infoCategory": "Activities",
+          "contactInfo": "",
+          "deadline": "",
+          "infoOrder": 3
+        }
+      ]
+    }
+  }
+}

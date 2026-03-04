@@ -1,0 +1,85 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Emma & James - September 12, 2026",
+          "path": "/homepage",
+          "heroTitle": "Emma & James",
+          "heroSubtitle": "September 12, 2026 | Rosewood Estate, Napa Valley",
+          "heroDescription": {
+            "processed": "<p>We are so excited to celebrate our love with the people who mean the most to us. Join us for a weekend of joy, laughter, and unforgettable memories in the heart of wine country.</p>",
+            "summary": "We are so excited to celebrate our love with the people who mean the most to us. Join us for a weekend of joy, laughter, and unforgettable memories in the heart of wine country."
+          },
+          "heroImage": {
+            "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+            "alt": "Couple embracing in a vineyard at sunset",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519741497674-611481863552?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-date",
+              "title": "",
+              "number": "Sept 12",
+              "label": "Wedding Date"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-venue",
+              "title": "",
+              "number": "Rosewood",
+              "label": "Estate & Gardens"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-guests",
+              "title": "",
+              "number": "150",
+              "label": "Guests Invited"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countdown",
+              "title": "",
+              "number": "193",
+              "label": "Days to Go"
+            }
+          ],
+          "featuredItemsTitle": "Our Story",
+          "ctaTitle": "RSVP by August 1, 2026",
+          "ctaDescription": {
+            "processed": "<p>We can't wait to celebrate with you! Please let us know if you can make it by responding to your invitation. Dinner and accommodation details will be shared upon RSVP.</p>",
+            "summary": "We can't wait to celebrate with you! Please let us know if you can make it by responding to your invitation. Dinner and accommodation details will be shared upon RSVP."
+          },
+          "ctaPrimary": "RSVP Now",
+          "ctaSecondary": "View Registry"
+        }
+      ]
+    }
+  }
+}

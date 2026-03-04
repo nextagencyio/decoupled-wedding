@@ -1,0 +1,32 @@
+'use client'
+
+import Image from 'next/image'
+import Link from 'next/link'
+import { DrupalHomepage } from '@/lib/types'
+
+interface HeroSectionProps {
+  homepageContent: DrupalHomepage | null | undefined
+}
+
+export default function HeroSection({ homepageContent }: HeroSectionProps) {
+  const title = (homepageContent as any)?.heroTitle || (homepageContent as any)?.title || 'Welcome'
+  const subtitle = (homepageContent as any)?.heroSubtitle || ''
+
+  return (
+    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
+      <Image src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1920&q=80&fit=crop" alt="Editorial background" fill className="object-cover" priority unoptimized />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-[#faf8f5]" />
+
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+        <p className="text-accent-400 font-display text-lg tracking-widest uppercase mb-6">Since 1998</p>
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-medium text-white mb-6 leading-tight">{title}</h1>
+        <div className="w-24 h-0.5 bg-accent-400 mx-auto mb-8" />
+        {subtitle && <p className="text-xl md:text-2xl text-gray-200 font-light mb-8 max-w-3xl mx-auto leading-relaxed">{subtitle}</p>}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link href="/events" className="inline-flex items-center justify-center px-8 py-4 bg-accent-500 text-primary-950 rounded-sm hover:bg-accent-400 transition-colors font-semibold text-lg tracking-wide">Explore Events</Link>
+          <Link href="/contact" className="inline-flex items-center justify-center px-8 py-4 border-2 border-white/70 text-white rounded-sm hover:bg-white/10 transition-colors font-semibold text-lg tracking-wide">Contact Us</Link>
+        </div>
+      </div>
+    </section>
+  )
+}
