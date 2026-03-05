@@ -218,7 +218,7 @@
     {
       "id": "about-page",
       "type": "node.page",
-      "path": "/about",
+      "path": "/our-story",
       "values": {
         "title": "About Us",
         "body": "<p>This is a sample Basic Page created by the starter content import. Basic Pages are ideal for static content like About, Contact, Privacy Policy, and Terms of Service.</p><p>Unlike Articles, Basic Pages don't display author information or publication dates, making them perfect for timeless content.</p>"

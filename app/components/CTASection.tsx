@@ -19,7 +19,7 @@ export default function CTASection({ homepageContent }: CTASectionProps) {
         <div className="w-16 h-0.5 bg-primary-600 mx-auto mb-6" />
         <div className="flex justify-center gap-4 flex-wrap">
           <Link href="/contact" className="px-8 py-3 border-2 border-primary-600 text-primary-700 rounded-full hover:bg-primary-600 hover:text-white transition-colors font-medium tracking-wide">{primaryLabel}</Link>
-          <Link href="/about" className="px-8 py-3 border-2 border-gray-300 text-gray-600 rounded-full hover:border-primary-600 hover:text-primary-700 transition-colors font-medium tracking-wide">{secondaryLabel}</Link>
+          <Link href="/our-story" className="px-8 py-3 border-2 border-gray-300 text-gray-600 rounded-full hover:border-primary-600 hover:text-primary-700 transition-colors font-medium tracking-wide">{secondaryLabel}</Link>
         </div>
       </div>
     </section>

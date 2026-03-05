@@ -8,9 +8,9 @@ import { Menu, X } from 'lucide-react'
 
 const navigationItems = [
   { name: 'Home', href: '/' },
-  { name: 'Programs', href: '/programs' },
+  { name: 'Programs', href: '/info' },
   { name: 'Events', href: '/events' },
-  { name: 'About', href: '/about' },
+  { name: 'About', href: '/our-story' },
 ]
 
 export default function Header() {
