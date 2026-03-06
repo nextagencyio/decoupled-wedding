@@ -45,28 +45,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-date",
               "title": "",
-              "number": "Sept 12",
+              "number": "Sept 12", "value": "Sept 12",
               "label": "Wedding Date"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-venue",
               "title": "",
-              "number": "Rosewood",
+              "number": "Rosewood", "value": "Rosewood",
               "label": "Estate & Gardens"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-guests",
               "title": "",
-              "number": "150",
+              "number": "150", "value": "150",
               "label": "Guests Invited"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-countdown",
               "title": "",
-              "number": "193",
+              "number": "193", "value": "193",
               "label": "Days to Go"
             }
           ],
