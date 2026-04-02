@@ -24,7 +24,7 @@ interface StoryChapterByPathData {
 async function getStoryChapter(path: string): Promise<DrupalStoryChapter | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_STORY_CHAPTER_BY_PATH, { path })
+    const data = await client.raw(GET_STORY_CHAPTER_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching story chapter:', error)

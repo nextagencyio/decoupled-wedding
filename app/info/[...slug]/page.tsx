@@ -24,7 +24,7 @@ interface RsvpInfoByPathData {
 async function getRsvpInfo(path: string): Promise<DrupalRsvpInfo | null> {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_RSVP_INFO_BY_PATH, { path })
+    const data = await client.raw(GET_RSVP_INFO_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching rsvp info:', error)
