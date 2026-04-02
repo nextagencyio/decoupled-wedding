@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_RSVP_INFOS } from '@/lib/queries'
 import { RsvpInfosData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getRsvpInfos() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<RsvpInfosData>({
-      query: GET_RSVP_INFOS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_RSVP_INFOS, { first: 50 })
     return data?.nodeRsvpInfos?.nodes || []
   } catch (error) {
     console.error('Error fetching rsvp infos:', error)

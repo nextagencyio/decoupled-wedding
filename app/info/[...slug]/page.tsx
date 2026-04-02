@@ -1,8 +1,7 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { headers } from 'next/headers'
 import Link from 'next/link'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_RSVP_INFO_BY_PATH } from '@/lib/queries'
 import { DrupalRsvpInfo } from '@/lib/types'
 import Header from '../../components/Header'
@@ -24,13 +23,8 @@ interface RsvpInfoByPathData {
 
 async function getRsvpInfo(path: string): Promise<DrupalRsvpInfo | null> {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<RsvpInfoByPathData>({
-      query: GET_RSVP_INFO_BY_PATH,
-      variables: { path },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_RSVP_INFO_BY_PATH, { path })
     return data?.route?.entity || null
   } catch (error) {
     console.error('Error fetching rsvp info:', error)
